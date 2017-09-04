@@ -1,0 +1,82 @@
+html{
+    background-color: mintcream;
+    font-family: monospace;
+
+}
+h2{
+    text-align: center;
+}
+.btn{
+    margin-left: 225px;
+    text-decoration: none;
+}
+
+#Customer{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#Employee{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#Vehicle{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#Paperwork{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wrapper{
+    display: inline-flex;
+    margin-left: 250px;
+}
+
+a:link{
+    text-decoration-line: none;
+    color: darkslategrey;
+}
+
+#Customer:hover{
+    background-color: lightcyan;
+}
+#Employee:hover{
+    background-color: lightcyan;
+}
+#Vehicle:hover{
+    background-color: lightcyan;
+}
+#Paperwork:hover{
+    background-color: lightcyan;
+}
+

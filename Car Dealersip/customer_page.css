@@ -1,0 +1,20 @@
+html{
+    background-color: mintcream;
+    font-family: monospace;
+
+}
+
+.first_row{
+    display: left;
+    padding: inherit;
+    
+}
+
+.second_row{
+    display: left;
+    padding: inherit;
+}
+
+.Submit{
+    margin-left: 495px;
+}

@@ -1,0 +1,105 @@
+html{
+    background-color: mintcream;
+    font-family: monospace;
+
+}
+
+header{
+    text-align: center;
+    color: darkseagreen;
+    font-size: 28px;
+}
+
+.Greeting{
+    text-align: center;
+    color: darkslategrey;
+    font-size: 22px;
+}
+
+.btn{
+    margin-left: 225px;
+}
+
+.btn2{
+    margin-left: 475px;
+}
+
+#Customer{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#Employee{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#Vehicle{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#Paperwork{
+    background-color: lightgrey;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#Begin{
+    background-color: darkcyan;
+    border: 2px solid green;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a:link{
+    text-decoration-line: none;
+    color: darkslategrey;
+}
+
+#Customer:hover{
+    background-color: lightcyan;
+}
+#Employee:hover{
+    background-color: lightcyan;
+}
+#Vehicle:hover{
+    background-color: lightcyan;
+}
+#Paperwork:hover{
+    background-color: lightcyan;
+}
+#Begin:hover{
+    background-color: lightcyan;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <author name= "Talmadge Glenn"></author>
+        <link rel = "stylesheet" type = "text/css" 
+              href="paperwork_page.css">
+    </head>
+    
+
+    <body>
+        <header>
+    	   <h1>North Columbus Car Dealership</h1>
+        </header>
+        
+        <h2>Paperwork</h2>  
+
+        <article class = "Greeting">
+            <p> Below is a collection of your responses to the questions from Customer,
+                Employee, and Vehicle. After reviewing this and confirming it to be true 
+                select the Submit button to complete the application, Thank you!
+            </p>       
+        </article>
+        
+        <div class="Submit">
+                <a href="thankyou_page.html"><p>Submit</p></a>
+            </div>
+        
+        <article class = "frmCustomer">
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Personal information:</legend>
+                        <article class = "first_row">
+                                First name:<br>
+                            <input type="text" name="firstname" value=""><br>
+                                Middle Initial:<br>
+                            <input type="text" name="middle initial" value=""><br>
+                                Last name:<br>
+                            <input type="text" name="lastname" value=""><br>
+                                ID:<br>
+                            <input type="int" name="id" value=""><br>
+                        </article>  
+                    
+                        <article class = "second_row">
+                                Address:<br>
+                            <input type="text" name="address" value=""><br>
+                                City:<br>
+                            <input type="text" name="city" value=""><br>
+                                State:<br>
+                            <input type="text" name="state" value=""><br>
+                                Country:<br>
+                            <input type="int" name="country" value=""><br>
+                        </article>                     
+                </fieldset>
+            </form>
+            <div id="Edit">
+                <a href="customer_page.html"><p>Edit</p></a>
+            </div> 
+        </article>
+        
+        <article class = "frmEmployee">
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>Employee Only:</legend>
+                        <article class = "first_row">
+                                Employee ID:<br>
+                            <input type="text" name="employeeid" value=""><br><br>
+                        </article>  
+                    
+                        <article class = "second_row">
+                                Action:<br>
+                            <select class="cboEmp">
+                                <option>Select an Option:</option>
+                                <option value="access repair history">Access Repair History</option>
+                                <option value="handle paperwork">Handle Paperwork</option>
+                                <option value="locate vehicle">Locate Vehicle</option>
+                                <option value="process financial">Process Financial</option>
+                            </select>
+                        </article>                     
+                </fieldset>
+            </form>
+            <div id="Edit">
+                <a href="employee_page.html"><p>Edit</p></a>
+            </div> 
+        </article>
+        
+        <article class = "frmVehicle">
+            <form action="/action_page.php">
+                <div class="wrapper">
+                    <fieldset class="Type">
+                        <legend>Vehicle Type</legend>
+                            <input type="radio" name="vehicle type" value="Sports Utility" > 
+                            Sports Utility<br>
+                            <input type="radio" name="vehicle type" value="4 Door Sedan" > 
+                            4 Door Sedan<br>
+                            <input type="radio" name="vehicle type" value="Pick Up Truck" > 
+                            Pick Up Truck<br>
+                            <input type="radio" name="vehicle type" value="2 Door Coupe" > 
+                            2 Door Coupe<br>
+                            <input type="radio" name="vehicle type" value="Sports Car" > 
+                            Sports Car                        
+                    </fieldset>
+
+                    <fieldset class="Color">
+                        <legend>Vehicle Color</legend>
+                            <input type="radio" name="vehicle color" value="Black" > 
+                            Black<br>
+                            <input type="radio" name="vehicle color" value="Blue" > 
+                            Blue<br>
+                            <input type="radio" name="vehicle color" value="Gold" > 
+                            Gold<br>
+                            <input type="radio" name="vehicle color" value="Red" > 
+                            Red<br>
+                            <input type="radio" name="vehicle color" value="Green" > 
+                            Green     
+                    </fieldset>
+
+                    <fieldset class=Vendor>
+                        <legend>Vehicle Vendor</legend>
+                            <input type="radio" name="vehicle vendor" value="Ford" > 
+                            Ford<br>
+                            <input type="radio" name="vehicle vendor" value="Chevy" > 
+                            Chevy<br>
+                            <input type="radio" name="vehicle vendor" value="Dodge" > 
+                            Dodge<br>
+                            <input type="radio" name="vehicle vendor" value="Toyota" > 
+                            Toyota<br>
+                            <input type="radio" name="vehicle vendor" value="Jeep" > 
+                            Jeep<br>    
+                    </fieldset>
+
+                </div>
+            </form>
+            <div id="Edit">
+                <a href="vehicle_page.html"><p>Edit</p></a>
+            </div> 
+        </article>
+        
+    </body>
+</html>
+ 
